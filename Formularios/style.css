@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #195560;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+h1 {
+    padding: 5px;
+}
+
+main {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    max-width: 1024px;
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+input {
+    margin: 5px;
+}
+
+h2 {
+    color: white;
+    background-color: #195560;
+    border-radius: 10px;
+    text-align: center;
+}

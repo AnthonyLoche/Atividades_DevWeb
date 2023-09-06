@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="FormsIcon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Formulários</h1>
+    </header>
+    <br>
+    <main>
+        <form action="http://localhost:4000" method="post">
+            <h2>Registre-Se</h2>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" placeholder="Digite seu nome">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Digite seu Email">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" placeholder="Digite sua Senha">
+            <label for="date">Data de Nascimento:</label>
+            <input type="date">
+            <label for="number">Telefone</label>
+            <input type="number" name="number" placeholder="Digite seu Telefone">
+            <label for="color">Cor Preferida:</label>
+            <input type="color" name="color">
+
+            <label for="sex">Sexo:</label>
+            <div class="check" style="display: flex;">
+                <label for="mas">Masculino:</label>
+                <input type="radio" name="mas">
+                <label for="fem">Feminino:</label>
+                <input type="radio" name="fem">
+            </div>
+            <br>
+            <label for="">Curso:</label>
+            <div class="check" style="display: flex;">
+                <label for="info">Info
+                    <input type="checkbox" name="info">
+                </label>
+                <label for="quimi">Quimi
+                    <input type="checkbox" name="quimi">
+                </label>
+                <label for="Agro">Agro
+                    <input type="checkbox" name="Agro">
+                </label>
+            </div>
+            <br>
+            <label for="file">Escolha Sua Foto:</label>
+            <input type="file" name="file" >
+            <br>
+            <label for="range">Satisfação com o Curso:</label>
+            <input type="range" name="range">
+            <button type="reset">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>

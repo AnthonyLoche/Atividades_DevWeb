@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
-    <header><h1>Calculadora IMC</h1></header>
+    <header>
+        <h1>Calculadora IMC</h1>
+    </header>
     <br>
     <main>
         <div class="calculadora">
             <h4>Informe Seus Dados</h4>
             <br>
             <div id="inputPeso">
-                <label for="peso" style="text-align: center;">Peso:</label>
+                <div class="center">
+                    <label for="peso" style="text-align: center;">Peso:</label>
+                </div>
                 <input type="text" id="peso" style="margin-bottom: 5px;">
-                <button onclick="registrarPeso()">Registrar Peso</button>
             </div>
             <br>
             <div id="inputAltura">
-                <label for="altura" style="text-align: center;"> Altura:</label>
+                <div class="center">
+                    <label for="altura" style="text-align: center;"> Altura:</label>
+                </div>
                 <input type="text" id="altura" style="margin-bottom: 5px;">
-                <button onclick="registrarAltura()">Registrar Altura</button>
             </div>
             <br>
             <div class="center">
@@ -33,6 +39,10 @@
             <h4>Seu IMC é:</h4>
         </div>
     </main>
+    <footer>
+        <h4>Anthony Gabriel Loche dos Reis, 1info2</h4>
+    </footer>
 </body>
 <script src="script.js"></script>
+
 </html>

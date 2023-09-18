@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 0px black;
+    max-width: 512px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#inputPeso{
+    display: grid;
+}
+
+#inputAltura{
+    display: grid;
+}
+
+main{
+    margin: auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: crimson;
+    border-radius: 15px;
+    border: 0px solid #000000;
+    padding: 5px;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="OIP (4).jpeg" type="image/x-icon">
 
 </head>
 
@@ -33,11 +34,21 @@
             </div>
             <br>
             <div class="center">
-                <button onclick="calc()">Calcular</button>
+                <button onclick="calc()"><h3>Calcular</h3></button>
             </div>
             <br>
-            <h4>Seu IMC é:</h4>
+            <div id="bob">
+                <h4>Seu IMC é: <div id="resultado"></div>
+                    <p>Isso é classificado como</p><div id="aviso"></div>
+                </h4>
+                <br>
+
+            </div>
+            <div class="center">
+            <button onclick="limpar()">Limpar Calculadora</button>
         </div>
+        </div>
+
     </main>
     <footer>
         <h4>Anthony Gabriel Loche dos Reis, 1info2</h4>

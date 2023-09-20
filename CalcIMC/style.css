@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header{
+header {
     background-color: crimson;
     color: white;
     width: 100%;
@@ -16,7 +16,7 @@ header{
     border: 2px solid black;
 }
 
-.calculadora{
+.calculadora {
     border: 2px solid black;
     box-shadow: 3px 3px 3px 0px black;
     max-width: 512px;
@@ -24,15 +24,15 @@ header{
     padding: 30px;
 }
 
-#inputPeso{
+#inputPeso {
     display: grid;
 }
 
-#inputAltura{
+#inputAltura {
     display: grid;
 }
 
-main{
+main {
     margin: auto;
     max-width: 1024px;
     display: flex;
@@ -40,7 +40,7 @@ main{
     align-items: center;
 }
 
-h4{
+h4 {
     background-color: crimson;
     color: white;
     border-radius: 10px;
@@ -49,13 +49,13 @@ h4{
     border: 2px solid black;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-button{
+button {
     color: white;
     background-color: crimson;
     border-radius: 15px;
@@ -64,7 +64,7 @@ button{
     border: 2px solid black;
 }
 
-label{
+label {
     color: white;
     background-color: crimson;
     width: 55px;
@@ -74,12 +74,12 @@ label{
     border: 2px solid black;
 }
 
-input{
+input {
     border-radius: 5px;
     border: 2px solid black;
 }
 
-footer{
+footer {
     bottom: 0;
     position: absolute;
     background-color: crimson;
@@ -92,10 +92,47 @@ footer{
     border: 2px solid black;
 }
 
-#bob{
+#bob {
     display: none;
 }
 
-#aviso{
+#aviso {
     display: none;
+}
+
+
+label {
+    margin: 5px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid crimson;
+    transition: 1s;
+    animation: anima 1s forwards;
+}
+
+#tabelas{
+    margin: auto;
+}
+
+#parabens{
+    display: none;
+    margin: auto;
+    max-width: 400px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+#tabelaBaixo{
+    display: none;
+    margin: auto;
+}
+
+#tabelaAlta{
+    display: none;
+    margin: auto;
 }

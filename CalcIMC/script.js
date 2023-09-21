@@ -59,3 +59,4 @@ function limpar() {
 
     tabelas.style.display = "none"
 }
+

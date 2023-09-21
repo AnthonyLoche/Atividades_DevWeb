@@ -79,9 +79,10 @@ input {
     border: 2px solid black;
 }
 
-#footer {
+footer {
     bottom: 0;
-    position: absolute;
+    margin-top: 15%;
+    position: relative;
     background-color: crimson;
     color: white;
     width: 100%;

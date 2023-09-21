@@ -29,13 +29,19 @@ function calc() {
         tabelas.style.display = "block";
 
         if(imc < 18.50){
-            baixo.style.display = "block"
+            baixo.style.display = "block";
+            parabens.style.display = "none";
+            alta.style.display = "none";
         }
         else if(imc < 24.99 && imc > 18.50 ){
-            parabens.style.display = "block"
+            parabens.style.display = "block";
+            baixo.style.display = "none";
+            alta.style.display = "none"
         }
         else if( imc > 24.99 ){
             alta.style.display = "block";
+            baixo.style.display = "none";
+            parabens.style.display = "none";
         }
 
         const paia = document.getElementById("aviso");
@@ -50,4 +56,6 @@ function limpar() {
 
     const peso = document.getElementById("peso").value = "";
     const altura = document.getElementById("altura").value = "";
+
+    tabelas.style.display = "none"
 }

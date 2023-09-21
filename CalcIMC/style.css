@@ -79,7 +79,7 @@ input {
     border: 2px solid black;
 }
 
-footer {
+#footer {
     bottom: 0;
     position: absolute;
     background-color: crimson;
@@ -113,11 +113,12 @@ button:hover {
     animation: anima 1s forwards;
 }
 
-#tabelas{
+#tabelas {
     margin: auto;
+    padding: 10px;
 }
 
-#parabens{
+#parabens {
     display: none;
     margin: auto;
     max-width: 400px;
@@ -127,12 +128,41 @@ button:hover {
     color: white;
 }
 
-#tabelaBaixo{
+#tabelaBaixo {
     display: none;
     margin: auto;
+    max-width: 512px;
 }
 
-#tabelaAlta{
+#tabelaBaixoDentro {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 512px;
+}
+
+#tabelaAlta {
     display: none;
     margin: auto;
+    max-width: 512px;
+}
+
+#tabelaAltaDentro {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 512px;
+}
+
+
+article {
+    border: 1px solid black;
+    text-align: center;
+    padding:10px;
+}
+
+h3 {
+    background-color: crimson;
+    color: white;
+    text-align: center;
 }

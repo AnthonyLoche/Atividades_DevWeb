@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Bhaskara</h1>
+    </header>
+    <br>
+    <main>
+        <br>
+        <h4 style="text-align: center;">Insira os Valores de "a", "b" e "c"</h4>
+        
+        <div id="dento">
+            <div id="inputs">
+                <br>
+                <form action="">
+                    <label for="a">"A":</label>
+                    <input type="text" name="" id="a" placeholder='Digite o Valor de "a"'>
+                    <label for="B">"B":</label>
+                    <input type="text" name="" id="b" placeholder='Digite o Valor de "b"'>
+                    <label for="c">"C":</label>
+                    <input type="text" name="" id="c" placeholder='Digite o Valor de "c"'>
+                </form>
+            </div>
+        </div>
+        <div class="center">
+            <div id="conferir">
+                <button onclick="confirmar()">Conferir</button>
+               
+            </div>
+            <div id="confirmar">
+
+
+            </div>
+
+        </div>
+        <div id="sla">
+            <div id="botoes">
+                <button onclick="sim()">Sim</button>
+                <br>
+                <button onclick="nao()">Não</button>
+            </div>
+        </div>
+        <br>
+        <div class="center">
+            <div id="res">
+
+                <div id="delta">
+                    <h3>Delta:</h3>
+                    <p id="deltaValor"></p>
+                </div>
+                <div id="x1">
+                    <h3>X1:</h3>
+                    <p id="x1Valor"></p>
+                </div>
+                <div id="x2">
+                    <h3>X2:</h3>
+                    <p id="x2Valor"></p>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+            <div class="center">
+                <button onclick="limpar()">Limpar</button>
+            </div>
+    </main>
+    <footer>
+        <p>&copy; 2023, Calculadora Bhaskara. Todos os direitos reservados. Anthony Gabriel Loche dos Reis, 1info2 </p> 
+    </footer> 
+</body>
+<script src="script.js"></script>
+
+</html>
